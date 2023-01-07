@@ -1,0 +1,75 @@
+.attendance-system {
+    width: 60%;
+    margin: 0 auto;
+   
+    background: url("https://cdn.pixabay.com/photo/2017/12/22/08/01/school-supplies-3033204_1280.jpg");
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-weight: 400;
+    font-optical-sizing: 3;
+
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .student-count, .total-students {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .label {
+    margin-bottom: 0.5em;
+  }
+  
+  .input {
+    width: 50%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1em;
+  }
+  
+.btn{
+    display: flex;
+}
+
+  .button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #0366d6;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+
+  
+  .button:hover {
+    background-color: #005cc5;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+  }
+  
+  .table th {
+    background-color: #eee;
+  }
+  
